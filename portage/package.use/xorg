@@ -1,11 +1,13 @@
-# Required by x11-base/xorg-server
-sys-auth/pambase elogind
-# required by x11-misc/qt5ct-1.7::gentoo
-# required by x11-misc/qt5ct (argument)
->=dev-qt/qtgui-5.15.10 dbus
-# required by net-print/cups-filters-1.28.17-r2::gentoo[postscript]
-# required by net-print/cups-2.4.7-r1::gentoo
-# required by media-sound/spotify-1.2.25::gentoo
-# required by @selected
-# required by @world (argument)
->=app-text/ghostscript-gpl-10.02.1 cups
+app-i18n/fcitx-qt X
+app-i18n/fcitx-gtk X
+app-i18n/fcitx X
+media-video/vlc X
+dev-cpp/cairomm X
+sys-apps/dbus X
+x11-libs/gtk+ X
+gui-libs/gtk X
+dev-cpp/gtkmm X
+x11-libs/cairo X
+x11-drivers/nvidia-drivers X
+dev-qt/qtbase X
+dev-qt/qtmultimedia X
