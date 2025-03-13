@@ -1,0 +1,3 @@
+# required by dev-libs/libappindicator-12.10.1_p20200706::gentoo
+# required by dev-libs/libappindicator (argument)
+dev-libs/libdbusmenu gtk3

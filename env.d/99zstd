@@ -1,0 +1,2 @@
+# Use number of threads available for parallel compression
+ZSTD_NBTHREADS="0"

@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit Downloads
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>Downloads</name>
+  <uuid>be18abac-997c-4357-859d-469d9c9cd427</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/home/mtaciano/Downloads</path>
+  </target>
+</pool>

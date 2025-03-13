@@ -1,0 +1,18 @@
+# required by kde-frameworks/kcoreaddons-5.115.0::gentoo
+# required by kde-frameworks/kconfigwidgets-5.115.0::gentoo
+# required by kde-frameworks/kiconthemes-5.115.0::gentoo
+# required by kde-plasma/polkit-kde-agent-5.27.11::gentoo
+# required by kde-frameworks/kauth-5.115.0::gentoo[policykit]
+# required by kde-frameworks/kio-5.115.0::gentoo
+# required by kde-frameworks/knotifyconfig-5.115.0::gentoo
+# required by media-gfx/digikam-8.3.0-r1::gentoo
+# required by @selected
+# required by @world (argument)
+dev-qt/qtcore icu
+
+# required by dev-qt/qtwayland-5.15.16-r1::gentoo
+# required by kde-frameworks/kguiaddons-5.116.0-r1::gentoo[wayland]
+# required by media-gfx/flameshot-12.1.0-r2::gentoo[wayland]
+# required by @selected
+# required by @world (argument)
+dev-qt/qtgui egl

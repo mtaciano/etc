@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit fedora
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>fedora</name>
+  <uuid>2a8d5b2f-0236-40e1-806c-5cff34223181</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/home/mtaciano/VMs/Fedora</path>
+  </target>
+</pool>

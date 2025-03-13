@@ -1,0 +1,21 @@
+# See https://tosdr.org/en/service/225
+media-sound/spotify Spotify
+
+# See https://tosdr.org/en/service/536
+net-im/discord all-rights-reserved
+
+# Don't really know, but it should be ok
+media-fonts/symbola UFAS
+
+# See https://tosdr.org/en/service/2844
+# I use a default chrome for web dev, since my firefox is heavily configured
+www-client/google-chrome google-chrome
+
+# See https://developer.nvidia.com/management-library-nvml
+app-misc/fastfetch NVIDIA-NVLM
+
+# See https://obsidian.md/license
+app-office/obsidian Obsidian-EULA
+
+# See /var/db/repos/steam-overlay/licenses/ValveSteamLicense
+games-util/steam-launcher ValveSteamLicense

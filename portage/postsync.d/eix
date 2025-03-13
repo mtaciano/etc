@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script updates the `eix` cache after a `portage` update
+
+if [[ -e /var/cache/eix/portage.eix ]]; then
+    rsync -ca /var/cache/eix/portage.eix /var/cache/eix/previous.eix;
+fi
+eix-update
+if [[ -e /var/cache/eix/previous.eix ]]; then
+    eix-diff;
+fi

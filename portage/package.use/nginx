@@ -1,0 +1,5 @@
+# Required by x11-base/xorg-server
+sys-auth/pambase elogind
+# required by www-servers/nginx-1.23.2-r2::gentoo
+# required by nginx (argument)
+app-misc/mime-types nginx

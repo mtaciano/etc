@@ -1,0 +1,3 @@
+# Known apps that do not work well with `mold`
+sys-libs/glibc no-mold.conf
+media-gfx/hugin no-mold.conf

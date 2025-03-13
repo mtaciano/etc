@@ -1,0 +1,4 @@
+# Used for interacting with the DualSense controller
+dev-libs/hidapi
+
+sys-apps/usbutils

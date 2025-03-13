@@ -1,0 +1,2 @@
+# 'qt5ct' is recognized by both qt5ct and qt6ct to allow simultaneous usage
+QT_QPA_PLATFORMTHEME=qt5ct

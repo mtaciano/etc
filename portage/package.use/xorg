@@ -1,0 +1,11 @@
+# Required by x11-base/xorg-server
+sys-auth/pambase elogind
+# required by x11-misc/qt5ct-1.7::gentoo
+# required by x11-misc/qt5ct (argument)
+>=dev-qt/qtgui-5.15.10 dbus
+# required by net-print/cups-filters-1.28.17-r2::gentoo[postscript]
+# required by net-print/cups-2.4.7-r1::gentoo
+# required by media-sound/spotify-1.2.25::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-text/ghostscript-gpl-10.02.1 cups

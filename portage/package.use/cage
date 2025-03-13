@@ -1,0 +1,3 @@
+# required by gui-wm/cage-0.2.0::guru[X]
+# required by gui-wm/cage (argument)
+gui-libs/wlroots x11-backend

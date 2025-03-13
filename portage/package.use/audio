@@ -1,0 +1,8 @@
+media-video/pipewire sound-server pipewire-alsa dbus echo-cancel extra
+media-sound/pulseaudio -daemon
+
+# required by net-libs/webkit-gtk-2.46.5-r410::gentoo
+# required by gnome-extra/yelp-42.2-r1::gentoo
+# required by media-sound/easyeffects-7.1.6::gentoo[doc]
+# required by easyeffects (argument)
+>=media-libs/harfbuzz-10.4.0 icu

@@ -1,0 +1,3 @@
+# This script turns off C6 states on my Ryzen 5-1600
+/sbin/modprobe msr
+/usr/local/bin/zenstates.py --c6-disable
