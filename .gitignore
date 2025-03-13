@@ -23,6 +23,8 @@
 !local.d/**
 !libvirt/
 !libvirt/**
+!logrotate.d/
+!logrotate.d/**
 !init.d/
 !init.d/**
 !greetd/
