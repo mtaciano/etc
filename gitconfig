@@ -1,0 +1,6 @@
+[safe]
+	directory = /var/db/repos/guru
+	directory = /var/db/repos/gentoo-zh
+	directory = /var/db/repos/mtaciano-ebuilds
+	directory = /home/mtaciano/Documents/Projects/ebuilds
+	directory = /var/db/repos/steam-overlay
