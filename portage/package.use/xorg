@@ -11,3 +11,7 @@ x11-libs/cairo X
 x11-drivers/nvidia-drivers X
 dev-qt/qtbase X
 dev-qt/qtmultimedia X
+x11-libs/libxkbcommon X
+media-libs/libva X
+kde-frameworks/kwindowsystem X
+x11-libs/pango X

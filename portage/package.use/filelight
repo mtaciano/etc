@@ -1,4 +1,1 @@
-# required by kde-frameworks/qqc2-desktop-style-6.11.0::gentoo
-# required by kde-apps/filelight-24.12.2::gentoo
-# required by kde-apps/filelight (argument)
->=kde-frameworks/sonnet-6.11.0 qml
+kde-frameworks/sonnet qml

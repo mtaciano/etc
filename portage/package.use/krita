@@ -1,6 +1,2 @@
-# required by media-gfx/krita-5.2.6::gentoo[python_single_target_python3_12]
-# required by krita (argument)
->=dev-python/pyqt5-5.15.11 declarative network widgets gui
-# required by media-gfx/krita-5.2.6::gentoo[pdf]
-# required by krita (argument)
->=app-text/poppler-25.01.0 qt5
+dev-python/pyqt5 declarative network widgets gui
+app-text/poppler qt5

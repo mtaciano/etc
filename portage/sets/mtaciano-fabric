@@ -1,9 +1,0 @@
-x11-libs/gtk+
-x11-libs/cairo
-gui-libs/gtk-layer-shell
-dev-libs/glib
-dev-libs/gobject-introspection
-dev-python/pygobject
-dev-python/pycairo
-dev-python/loguru
-dev-util/pkgconf

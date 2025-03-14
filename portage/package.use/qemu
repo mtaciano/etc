@@ -1,19 +1,6 @@
-# required by app-emulation/libvirt-10.3.0::gentoo[virt-network]
-# required by app-emulation/libvirt-glib-5.0.0::gentoo
-# required by app-emulation/virt-manager-4.1.0-r1::gentoo[-test]
-# required by app-emulation/virt-manager (argument)
 net-dns/dnsmasq script
-# required by app-crypt/swtpm-0.8.2::gentoo
-# required by app-emulation/libvirt-10.3.0::gentoo[qemu]
-# required by app-emulation/libvirt-glib-5.0.0::gentoo
-# required by app-emulation/virt-manager-4.1.0-r1::gentoo[-test]
-# required by app-emulation/virt-manager (argument)
 net-libs/gnutls pkcs11 tools
-# required by app-emulation/virt-manager-4.1.0-r1::gentoo[-test,gui]
-# required by app-emulation/virt-manager (argument)
 net-misc/spice-gtk usbredir
-# recommended by gentoo
 app-emulation/libvirt pcap virt-network numa fuse macvtap vepa qemu policykit
-
 app-emulation/virt-manager gui policykit
 app-emulation/qemu spice opengl virgl usbredir io-uring jemalloc pipewire zstd QEMU_SOFTMMU_TARGETS: arm aarch64 x86_64 QEMU_USER_TARGETS: arm aarch64 x86_64 riscv32 riscv64

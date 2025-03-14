@@ -1,9 +1,4 @@
 app-i18n/mozc fcitx5
 app-text/xmlto text
-
-# required by app-i18n/fcitx-configtool-5.1.6-r2::gentoo
-# required by @selected
-# required by @world (argument)
 app-i18n/fcitx-qt qt6 qt5
-
 app-i18n/fcitx-gtk gtk2

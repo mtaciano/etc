@@ -1,13 +1,4 @@
-# required by gnome-extra/cinnamon-desktop-5.4.2::gentoo
-# required by gnome-extra/nemo-5.4.3::gentoo
-# required by gnome-extra/nemo (argument)
 dev-libs/glib dbus
 sys-apps/accountsservice elogind
-
 gnome-extra/nemo exif
-
-# required by gnome-extra/nemo-6.4.5::gentoo
-# required by gnome-extra/nemo-fileroller-6.4.0::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-libs/libxmlb-0.3.21 introspection
+dev-libs/libxmlb introspection

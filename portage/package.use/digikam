@@ -1,39 +1,11 @@
-# required by media-gfx/digikam-8.3.0-r1::gentoo
-# required by digikam (argument)
->=dev-qt/qtwebengine-5.15.13_p20240322:5 widgets
-# required by media-gfx/digikam-8.3.0-r1::gentoo
-# required by digikam (argument)
->=media-libs/opencv-4.9.0 contrib contribdnn qt6
-# required by media-gfx/digikam-8.3.0-r1::gentoo[mediaplayer]
-# required by digikam (argument)
->=dev-qt/qtmultimedia-5.15.13:5 widgets
-# required by media-gfx/hugin-2023.0.0-r1::gentoo
-# required by media-gfx/digikam-8.3.0-r1::gentoo[panorama]
-# required by digikam (argument)
->=media-libs/vigra-1.11.1-r9 openexr
-# required by media-gfx/hugin-2023.0.0-r1::gentoo
-# required by media-gfx/digikam-8.3.0-r1::gentoo[panorama]
-# required by digikam (argument)
->=x11-libs/wxGTK-3.2.2.1-r3 opengl
-# required by media-libs/vigra-1.11.1-r9::gentoo[python]
-# required by media-gfx/enblend-4.2.0_p20240424::gentoo
-# required by media-gfx/hugin-2023.0.0-r1::gentoo
-# required by media-gfx/digikam-8.3.0-r1::gentoo[panorama]
-# required by digikam (argument)
->=dev-libs/boost-1.84.0-r3 python
-# required by kde-frameworks/kded-5.115.0::gentoo
-# required by kde-frameworks/kio-5.115.0::gentoo
-# required by kde-frameworks/knotifyconfig-5.115.0::gentoo
-# required by media-gfx/digikam-8.3.0-r1::gentoo
-# required by digikam (argument)
->=kde-frameworks/kconfig-5.115.0 dbus
-# required by dev-qt/qtwebengine-5.15.13_p20240322::gentoo
-# required by media-gfx/digikam-8.3.0-r1::gentoo
-# required by digikam (argument)
->=dev-libs/libxml2-2.12.6 icu
-# required by dev-qt/qtwebengine-5.15.13_p20240322::gentoo
-# required by media-gfx/digikam-8.3.0-r1::gentoo
-# required by digikam (argument)
->=dev-qt/qtwebchannel-5.15.13:5 qml
-
+dev-qt/qtwebengine widgets
+media-libs/opencv contrib contribdnn qt6
+dev-qt/qtmultimedia widgets
+media-libs/vigra openexr
+x11-libs/wxGTK opengl
+dev-libs/boost python
+kde-frameworks/kconfig dbus
+dev-libs/libxml2 icu
+dev-qt/qtwebchannel qml
 app-dicts/myspell-en l10n_en-US
+media-gfx/imagemagick xml

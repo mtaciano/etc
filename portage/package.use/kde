@@ -1,45 +1,7 @@
-# required by dev-qt/qtwayland-6.7.2-r3::gentoo
-# required by kde-plasma/libplasma-6.1.4::gentoo
-# required by kde-plasma/polkit-kde-agent-6.1.4::gentoo
-# required by kde-frameworks/kauth-6.5.0::gentoo[policykit]
-# required by kde-frameworks/kio-6.5.0::gentoo
-# required by kde-frameworks/kcmutils-6.5.0::gentoo
->=dev-qt/qtbase-6.7.2-r2 libproxy wayland icu
-# required by kde-frameworks/kwallet-6.5.0::gentoo
-# required by kde-frameworks/kio-6.5.0::gentoo[kwallet]
-# required by kde-frameworks/kcmutils-6.5.0::gentoo
-# required by kde-plasma/libplasma-6.1.4::gentoo
-# required by kde-plasma/polkit-kde-agent-6.1.4::gentoo
-# required by kde-frameworks/kauth-6.5.0::gentoo[policykit]
->=app-crypt/qca-2.3.9 qt6
-# required by kde-frameworks/kauth-6.5.0::gentoo[policykit]
-# required by kde-frameworks/kio-6.5.0::gentoo
-# required by kde-frameworks/kcmutils-6.5.0::gentoo
-# required by kde-plasma/libplasma-6.1.4::gentoo
-# required by kde-plasma/polkit-kde-agent-6.1.4::gentoo
->=kde-frameworks/kwindowsystem-6.5.0 wayland
-# required by kde-plasma/polkit-kde-agent-6.1.4::gentoo
-# required by kde-frameworks/kauth-6.5.0::gentoo[policykit]
-# required by kde-frameworks/kio-6.5.0::gentoo
-# required by kde-frameworks/kcmutils-6.5.0::gentoo
-# required by kde-plasma/libplasma-6.1.4::gentoo
->=sys-auth/polkit-qt-0.200.0 qt6
-# required by kde-frameworks/kirigami-6.5.0::gentoo
-# required by kde-frameworks/ksvg-6.5.0::gentoo
-# required by kde-plasma/libplasma-6.1.4::gentoo
-# required by kde-plasma/polkit-kde-agent-6.1.4::gentoo
-# required by kde-frameworks/kauth-6.5.0::gentoo[policykit]
-# required by kde-frameworks/kio-6.5.0::gentoo
-# required by kde-frameworks/kcmutils-6.5.0::gentoo
->=dev-qt/qt5compat-6.7.2 qml icu
-# required by kde-plasma/libplasma-6.1.4::gentoo
-# required by kde-plasma/polkit-kde-agent-6.1.4::gentoo
-# required by kde-frameworks/kauth-6.5.0::gentoo[policykit]
-# required by kde-frameworks/kio-6.5.0::gentoo
-# required by kde-frameworks/kcmutils-6.5.0::gentoo
->=kde-frameworks/kconfig-6.5.0 qml
-# required by gnome-extra/nemo-6.2.6::gentoo
-# required by gnome-extra/nemo-fileroller-6.2.0::gentoo
-# required by @selected
-# required by @world (argument)
->=x11-libs/xapp-2.8.5 introspection
+dev-qt/qtbase libproxy wayland icu
+app-crypt/qca qt6
+kde-frameworks/kwindowsystem wayland
+sys-auth/polkit-qt qt6
+dev-qt/qt5compat qml icu
+kde-frameworks/kconfig qml
+x11-libs/xapp introspection
