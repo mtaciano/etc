@@ -4,7 +4,7 @@
 
 [background]
 # Path to the background image
-path = "/home/mtaciano/Pictures/lock.jpg"
+path = "/home/mtaciano/pictures/lock.jpg"
 
 # How the background image covers the screen if the aspect ratio doesn't match
 # Available values: "Fill", "Contain", "Cover", "ScaleDown"
