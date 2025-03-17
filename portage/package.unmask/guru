@@ -1,0 +1,12 @@
+app-misc/nwg-look::guru
+app-office/obsidian::guru
+app-text/typst::guru
+gui-apps/hypridle::guru
+gui-apps/hyprlock::guru
+gui-apps/hyprpaper::guru
+gui-apps/hyprpicker::guru
+gui-apps/hyprshot::guru
+gui-libs/xdg-desktop-portal-hyprland::guru
+gui-wm/cage::guru
+gui-wm/hyprland-contrib::guru
+x11-apps/xcur2png::guru
