@@ -1,2 +1,3 @@
 media-video/pipewire sound-server pipewire-alsa echo-cancel extra ffmpeg
 media-sound/pulseaudio -daemon
+media-libs/harfbuzz icu
