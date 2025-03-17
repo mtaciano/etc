@@ -12,4 +12,4 @@
 dev-libs/libxml2 icu
 media-gfx/imagemagick jpeg svg xml
 media-libs/libheif x265
-media-gfx/digikam heif video
+media-gfx/digikam heif video jpegxl
