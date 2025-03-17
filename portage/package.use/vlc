@@ -1,3 +1,1 @@
-sys-libs/zlib minizip
-dev-qt/qtwidgets dbus
-media-video/vlc qt5 truetype gnutls live lua matroska rtsp theora upnp vcdx pulseaudio
+media-video/vlc truetype matroska pulseaudio flac jpeg libnotify mp3 mpeg ogg png svg x264 x265
