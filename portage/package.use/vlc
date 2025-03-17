@@ -1,2 +1,2 @@
 sys-libs/zlib minizip
-media-video/vlc truetype matroska pulseaudio flac jpeg libnotify mp3 mpeg ogg png svg x264 x265
+media-video/vlc truetype matroska pulseaudio flac jpeg libnotify mp3 mpeg ogg png svg x264 x265 fontconfig
