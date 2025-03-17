@@ -15,3 +15,4 @@ x11-libs/libxkbcommon X
 media-libs/libva X
 kde-frameworks/kwindowsystem X
 x11-libs/pango X
+dev-qt/qtgui X

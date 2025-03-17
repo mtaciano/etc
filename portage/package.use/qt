@@ -1,2 +1,8 @@
 dev-qt/qtcore icu
 dev-qt/qtgui egl
+dev-qt/qtmultimedia opengl
+dev-qt/qtbase opengl
+dev-qt/qtdeclarative opengl
+dev-qt/qtwebengine opengl
+gui-apps/qt6ct opengl
+dev-qt/qttools opengl
