@@ -1,14 +1,3 @@
-# dev-qt/qtwebengine widgets
-# media-libs/opencv contrib contribdnn qt6
-# dev-qt/qtmultimedia widgets
-# media-libs/vigra openexr
-# x11-libs/wxGTK opengl
-# dev-libs/boost python
-# kde-frameworks/kconfig dbus
-# dev-libs/libxml2 icu
-# dev-qt/qtwebchannel qml
-# app-dicts/myspell-en l10n_en-US
-# media-gfx/imagemagick xml
 dev-libs/libxml2 icu
 media-gfx/imagemagick jpeg svg xml
 media-libs/libheif x265

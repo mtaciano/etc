@@ -1,4 +1,3 @@
-dev-libs/glib dbus
 sys-apps/accountsservice elogind
 gnome-extra/nemo exif
 dev-libs/libxmlb introspection
