@@ -16,3 +16,5 @@ media-libs/libva X
 kde-frameworks/kwindowsystem X
 x11-libs/pango X
 dev-qt/qtgui X
+media-libs/vulkan-loader X
+media-libs/mesa X
