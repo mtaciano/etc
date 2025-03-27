@@ -10,5 +10,3 @@ gui-libs/xdg-desktop-portal-hyprland::guru
 gui-wm/cage::guru
 gui-wm/hyprland-contrib::guru
 x11-apps/xcur2png::guru
-gui-apps/1password::guru
-acct-group/1password::guru
