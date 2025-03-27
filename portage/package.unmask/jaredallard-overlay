@@ -1,2 +1,4 @@
 app-admin/1password::jaredallard-overlay
 acct-group/onepassword::jaredallard-overlay
+app-admin/op-cli-bin::jaredallard-overlay
+acct-group/onepassword-cli::jaredallard-overlay
