@@ -19,3 +19,6 @@ app-office/obsidian Obsidian-EULA
 
 # See /var/db/repos/steam-overlay/licenses/ValveSteamLicense
 games-util/steam-launcher ValveSteamLicense
+
+# See https://tosdr.org/en/service/1572
+gui-apps/1password all-rights-reserved
