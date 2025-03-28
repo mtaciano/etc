@@ -1,2 +1,1 @@
 # Known apps that do not work well with `mold`
-www-client/firefox no-mold.conf
