@@ -1,2 +1,2 @@
 media-libs/libvpx postproc
-www-client/firefox pulseaudio
+www-client/firefox pulseaudio pgo
