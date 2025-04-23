@@ -3,4 +3,4 @@ net-libs/gnutls pkcs11 tools
 net-misc/spice-gtk usbredir
 app-emulation/libvirt pcap virt-network numa fuse macvtap vepa qemu policykit
 app-emulation/virt-manager gui policykit
-app-emulation/qemu spice opengl virgl usbredir io-uring jemalloc pipewire zstd QEMU_SOFTMMU_TARGETS: arm aarch64 x86_64 QEMU_USER_TARGETS: arm aarch64 x86_64 riscv32 riscv64
+app-emulation/qemu wayland spice opengl virgl usbredir io-uring jemalloc pipewire zstd QEMU_SOFTMMU_TARGETS: arm aarch64 x86_64 QEMU_USER_TARGETS: arm aarch64 x86_64 riscv32 riscv64
