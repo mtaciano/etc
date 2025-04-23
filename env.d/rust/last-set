@@ -1,6 +1,5 @@
 /usr/bin/cargo
 /usr/bin/rustdoc
-/usr/bin/rust-demangler
 /usr/bin/rust-gdb
 /usr/bin/rust-gdbgui
 /usr/bin/rust-lldb
