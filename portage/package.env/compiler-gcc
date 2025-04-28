@@ -1,1 +1,2 @@
 =dev-libs/hyprlang-0.6.0 compiler-gcc.conf
+sys-devel/gcc
