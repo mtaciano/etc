@@ -20,3 +20,5 @@ media-libs/mesa X
 x11-libs/wxGTK X
 x11-libs/cairo X
 dev-python/pycairo X
+media-libs/libepoxy X
+media-libs/libglvnd X
