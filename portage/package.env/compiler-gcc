@@ -1,3 +1,4 @@
-=media-gfx/hugin-2024.0.1-r1 compiler-gcc.conf
+media-gfx/hugin compiler-gcc.conf
 sys-devel/gcc compiler-gcc.conf
 net-libs/webkit-gtk compiler-gcc.conf
+media-gfx/digikam compiler-gcc.conf
