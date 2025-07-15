@@ -4,3 +4,4 @@ sys-apps/kmod zstd
 sys-fs/zfs-kmod modules-compress
 sys-kernel/gentoo-kernel-bin modules-compress
 x11-drivers/nvidia-drivers modules-compress
+app-arch/xz-utils abi_x86_32
