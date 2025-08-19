@@ -2,4 +2,3 @@ media-gfx/hugin compiler-gcc.conf
 sys-devel/gcc compiler-gcc.conf
 net-libs/webkit-gtk compiler-gcc.conf
 media-gfx/digikam compiler-gcc.conf
-app-i18n/mozc compiler-gcc.conf
