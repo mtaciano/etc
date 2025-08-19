@@ -1,0 +1,86 @@
+From 33be2d0147d914bbcb48370e7b3e85cd7a7abf18 Mon Sep 17 00:00:00 2001
+From: Robert H <robert@jadedpasta.net>
+Date: Sun, 10 Aug 2025 23:43:49 -0500
+Subject: [PATCH] Move Unicode text direction allow to crate root
+
+Signed-off-by: Robert H <robert@jadedpasta.net>
+---
+ ...e-text-direction-allow-to-crate-root.patch | 38 +++++++++++++++++++
+ PKGBUILD                                      |  3 ++
+ 2 files changed, 41 insertions(+)
+ create mode 100644 Move-Unicode-text-direction-allow-to-crate-root.patch
+
+diff --git a/Move-Unicode-text-direction-allow-to-crate-root.patch b/Move-Unicode-text-direction-allow-to-crate-root.patch
+new file mode 100644
+index 0000000..e64d768
+--- /dev/null
++++ b/Move-Unicode-text-direction-allow-to-crate-root.patch
+@@ -0,0 +1,38 @@
++From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
++From: Robert H <robert@jadedpasta.net>
++Date: Sun, 10 Aug 2025 23:22:57 -0500
++Subject: [PATCH] Move Unicode text direction allow to crate root
++
++Signed-off-by: Robert H <robert@jadedpasta.net>
++---
++ rslib/i18n/src/generated.rs | 1 -
++ rslib/i18n/src/lib.rs       | 2 ++
++ 2 files changed, 2 insertions(+), 1 deletion(-)
++
++diff --git a/rslib/i18n/src/generated.rs b/rslib/i18n/src/generated.rs
++index f3526f79f..f3fa71ce8 100644
++--- a/rslib/i18n/src/generated.rs
+++++ b/rslib/i18n/src/generated.rs
++@@ -4,6 +4,5 @@
++ // Include auto-generated content
++
++ #![allow(clippy::all)]
++-#![allow(text_direction_codepoint_in_literal)]
++
++ include!(concat!(env!("OUT_DIR"), "/strings.rs"));
++diff --git a/rslib/i18n/src/lib.rs b/rslib/i18n/src/lib.rs
++index bfd6f5ba2..b47c5b208 100644
++--- a/rslib/i18n/src/lib.rs
+++++ b/rslib/i18n/src/lib.rs
++@@ -1,6 +1,8 @@
++ // Copyright: Ankitects Pty Ltd and contributors
++ // License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
++
+++#![allow(text_direction_codepoint_in_literal)]
+++
++ mod generated;
++
++ use std::borrow::Cow;
++--
++2.50.1
++
+diff --git a/PKGBUILD b/PKGBUILD
+index 226430c..6e7750d 100644
+--- a/PKGBUILD
++++ b/PKGBUILD
+@@ -77,6 +77,7 @@ source=("$pkgname-$pkgver.tar.gz::https://github.com/ankitects/anki/archive/refs
+         "strip-formatter-deps.patch"
+         "strip-type-checking-deps.patch"
+         "strip-python-pip-system-certs.patch"
++        "Move-Unicode-text-direction-allow-to-crate-root.patch"
+ )
+
+
+@@ -87,6 +88,7 @@ sha256sums=(ad9c0f53c2388680cde23b131d9c2abbf0f5338024ae35d8f34592fdcdf63179
+             bda56f774a676c894032086b124aeb4d61f1c28acb1868d117e3ed6b77780170
+             198bc2ec14439e3ba41a03c4823f07df4b0c559c1dcbdaf678416ed12a720c2e
+             2506cf9d5b0c47a2c519ec4bb0ef87e7921dca8db5cae39b0dae265d01e253b3
++            bfb5b5c3461f1d47ad9b215facb8464f6d3cb7b4af6501051e6d3639699da705
+ )
+
+ prepare() {
+@@ -97,6 +99,7 @@ prepare() {
+     patch -p1 < "$srcdir/strip-formatter-deps.patch"
+     patch -p1 < "$srcdir/strip-type-checking-deps.patch"
+     patch -p1 < "$srcdir/strip-python-pip-system-certs.patch"
++    patch -p1 < "$srcdir/Move-Unicode-text-direction-allow-to-crate-root.patch"
+
+     sed -i 's/opt-level = 1$/opt-level= 3/' Cargo.toml # optimize more
+     sed -i 's/channel = "[0-9\.]*"$/channel = "stable"/' rust-toolchain.toml # use most recent stable rust toolchain
+--
+2.50.1
