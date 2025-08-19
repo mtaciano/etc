@@ -53,34 +53,3 @@ index 0000000..e64d768
 + use std::borrow::Cow;
 +--
 +2.50.1
-+
-diff --git a/PKGBUILD b/PKGBUILD
-index 226430c..6e7750d 100644
---- a/PKGBUILD
-+++ b/PKGBUILD
-@@ -77,6 +77,7 @@ source=("$pkgname-$pkgver.tar.gz::https://github.com/ankitects/anki/archive/refs
-         "strip-formatter-deps.patch"
-         "strip-type-checking-deps.patch"
-         "strip-python-pip-system-certs.patch"
-+        "Move-Unicode-text-direction-allow-to-crate-root.patch"
- )
-
-
-@@ -87,6 +88,7 @@ sha256sums=(ad9c0f53c2388680cde23b131d9c2abbf0f5338024ae35d8f34592fdcdf63179
-             bda56f774a676c894032086b124aeb4d61f1c28acb1868d117e3ed6b77780170
-             198bc2ec14439e3ba41a03c4823f07df4b0c559c1dcbdaf678416ed12a720c2e
-             2506cf9d5b0c47a2c519ec4bb0ef87e7921dca8db5cae39b0dae265d01e253b3
-+            bfb5b5c3461f1d47ad9b215facb8464f6d3cb7b4af6501051e6d3639699da705
- )
-
- prepare() {
-@@ -97,6 +99,7 @@ prepare() {
-     patch -p1 < "$srcdir/strip-formatter-deps.patch"
-     patch -p1 < "$srcdir/strip-type-checking-deps.patch"
-     patch -p1 < "$srcdir/strip-python-pip-system-certs.patch"
-+    patch -p1 < "$srcdir/Move-Unicode-text-direction-allow-to-crate-root.patch"
-
-     sed -i 's/opt-level = 1$/opt-level= 3/' Cargo.toml # optimize more
-     sed -i 's/channel = "[0-9\.]*"$/channel = "stable"/' rust-toolchain.toml # use most recent stable rust toolchain
---
-2.50.1
