@@ -23,3 +23,6 @@ games-util/steam-launcher ValveSteamLicense
 # See https://tosdr.org/en/service/1572
 app-admin/1password all-rights-reserved
 app-admin/op-cli-bin all-rights-reserved
+
+# See /var/db/repos/guru/licenses/Overwolf
+games-util/curseforge Overwolf
