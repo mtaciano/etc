@@ -1,0 +1,2 @@
+# Make all electron apps use wayland if possible
+ELECTRON_OZONE_PLATFORM_HINT="wayland"
