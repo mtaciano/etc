@@ -2,3 +2,4 @@
 www-client/firefox no-mold.conf
 =x11-libs/wxGTK-3.2.8 no-mold.conf
 media-gfx/digikam no-mold.conf
+=app-i18n/mozc-2.28.5029.102-r5 no-mold.conf
