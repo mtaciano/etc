@@ -2,5 +2,3 @@ media-gfx/hugin compiler-gcc.conf
 sys-devel/gcc compiler-gcc.conf
 net-libs/webkit-gtk compiler-gcc.conf
 media-gfx/digikam compiler-gcc.conf
-sys-fs/zfs-kmod compiler-gcc.conf
-sys-fs/zfs compiler-gcc.conf
