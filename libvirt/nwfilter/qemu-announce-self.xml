@@ -1,15 +1,7 @@
-<!--
-WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
-OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
-  virsh nwfilter-edit qemu-announce-self
-or other application using the libvirt API.
--->
-
 <filter name='qemu-announce-self' chain='root'>
-  <uuid>d4b964b0-fca3-4c85-8de2-4d23f6313a1a</uuid>
-  <rule action='accept' direction='out' priority='500'>
-    <mac protocolid='0x835'/>
-  </rule>
-  <filterref filter='qemu-announce-self-rarp'/>
-  <filterref filter='no-other-rarp-traffic'/>
+  <!-- This rule originally allowed protocol '0x835' which qemu originally used.
+    As this bug in qemu was fixed and libvirt no longer supports such old qemu
+    versions this now is just a shim refering to 'qemu-announce-self-rarp' to
+    preserve compatibility if someone used this rule directly -->
+    <filterref filter='qemu-announce-self-rarp'/>
 </filter>
