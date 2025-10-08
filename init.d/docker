@@ -17,10 +17,10 @@ rc_ulimit=""
 RC_ULIMIT=""
 if [ "$1" = "start" ]; then
     if [ $BASH ]; then
-        rc_ulimit="${DOCKER_ULIMIT:--c unlimited -n 1048576 -u unlimited}"
+        rc_ulimit="${DOCKER_ULIMIT:--c unlimited -n 524288 -u unlimited}"
     else
         ulimit -c unlimited
-        ulimit -n 1048576
+        ulimit -n 524288
         ulimit -p unlimited
     fi
 fi
@@ -28,7 +28,7 @@ fi
 retry="${DOCKER_RETRY:-TERM/60/KILL/10}"
 
 depend() {
-	need containerd
+	need ${CONTAINERD_SVC:-containerd}
 }
 
 start_pre() {
