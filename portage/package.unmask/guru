@@ -11,3 +11,4 @@ gui-wm/cage::guru
 gui-wm/hyprland-contrib::guru
 x11-apps/xcur2png::guru
 games-util/curseforge::guru
+gui-apps/eww::guru
