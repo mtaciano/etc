@@ -1,3 +1,4 @@
 app-crypt/p11-kit abi_x86_32
 dev-db/sqlite abi_x86_32
 app-office/obsidian appindicator
+media-libs/libdisplay-info abi_x86_32
