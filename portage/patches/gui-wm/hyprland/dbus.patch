@@ -1,0 +1,12 @@
+diff --git a/example/hyprland.desktop b/example/hyprland.desktop
+index 57ad076f..2a8a77db 100644
+--- a/example/hyprland.desktop
++++ b/example/hyprland.desktop
+@@ -1,5 +1,5 @@
+ [Desktop Entry]
+ Name=Hyprland
+ Comment=An intelligent dynamic tiling Wayland compositor
+-Exec=Hyprland
++Exec=dbus-run-session Hyprland
+ Type=Application
+\ No newline at end of file
