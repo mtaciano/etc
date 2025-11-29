@@ -1,0 +1,2 @@
+# Older minecraft versions need this for Wayland support.
+x11-apps/xrandr
