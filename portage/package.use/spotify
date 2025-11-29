@@ -1,1 +1,1 @@
-media-sound/spotify local-playback libnotify
+media-sound/spotify local-playback libnotify pulseaudio
