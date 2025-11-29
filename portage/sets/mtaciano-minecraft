@@ -1,3 +1,3 @@
 # Older minecraft versions need this for Wayland support.
 x11-apps/xrandr
-dev-java/openjdk:8
+virtual/jdk:1.8
