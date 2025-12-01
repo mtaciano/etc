@@ -26,3 +26,6 @@ app-admin/op-cli-bin all-rights-reserved
 
 # See /var/db/repos/guru/licenses/Overwolf
 games-util/curseforge Overwolf
+
+# See /var/db/repos/gentoo/licenses/LogMeIn
+net-vpn/logmein-hamachi LogMeIn
