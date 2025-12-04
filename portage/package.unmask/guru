@@ -7,8 +7,7 @@ gui-apps/hyprpaper::guru
 gui-apps/hyprpicker::guru
 gui-apps/hyprshot::guru
 gui-libs/xdg-desktop-portal-hyprland::guru
-gui-wm/cage::guru
 gui-wm/hyprland-contrib::guru
 x11-apps/xcur2png::guru
-games-util/curseforge::guru
 gui-apps/eww::guru
+dev-vcs/jj::guru
