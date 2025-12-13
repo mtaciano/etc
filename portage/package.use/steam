@@ -157,5 +157,23 @@ games-util/game-device-udev-rules elogind
 # required by games-util/steam-launcher-1.0.0.81::steam-overlay
 # required by games-util/steam-launcher (argument)
 >=sys-libs/readline-8.2_p13-r1 abi_x86_32
+media-libs/vulkan-loader abi_x86_32 layers
+# required by media-libs/vulkan-loader-1.4.328.0-r1::gentoo[layers]
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[vulkan,video_cards_nvidia]
+# required by @selected
+# required by @world (argument)
+>=media-libs/vulkan-layers-1.4.328.0 X abi_x86_32
+# required by media-libs/vulkan-layers-1.4.328.0::gentoo
+# required by media-libs/vulkan-loader-1.4.328.0-r1::gentoo[layers]
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[vulkan,video_cards_nvidia]
+# required by @selected
+# required by @world (argument)
+>=dev-util/glslang-1.4.328.0-r1 abi_x86_32
+# required by media-libs/vulkan-layers-1.4.328.0::gentoo
+# required by media-libs/vulkan-loader-1.4.328.0-r1::gentoo[layers]
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[vulkan,video_cards_nvidia]
+# required by @selected
+# required by @world (argument)
+>=dev-util/vulkan-utility-libraries-1.4.328.0 abi_x86_32
 
 games-util/steam-launcher trayicon
