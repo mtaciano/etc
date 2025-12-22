@@ -14,3 +14,4 @@ dev-vcs/jj::guru
 x11-misc/ly::guru
 # For ly
 app-misc/brightnessctl::guru
+gui-apps/quickshell::guru
