@@ -11,3 +11,6 @@ gui-wm/hyprland-contrib::guru
 x11-apps/xcur2png::guru
 gui-apps/eww::guru
 dev-vcs/jj::guru
+x11-misc/ly::guru
+# For ly
+app-misc/brightnessctl::guru
