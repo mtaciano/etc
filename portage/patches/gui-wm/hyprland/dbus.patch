@@ -1,12 +1,12 @@
-diff --git a/example/hyprland.desktop b/example/hyprland.desktop
-index 57ad076f..2a8a77db 100644
---- a/example/hyprland.desktop
-+++ b/example/hyprland.desktop
-@@ -1,5 +1,5 @@
+diff '--color=auto' -ur a/example/hyprland.desktop b/example/hyprland.desktop
+--- a/example/hyprland.desktop  2025-12-27 19:54:59.149722965 -0300
++++ b/example/hyprland.desktop  2025-12-27 20:00:07.878814197 -0300
+@@ -1,7 +1,7 @@
  [Desktop Entry]
  Name=Hyprland
  Comment=An intelligent dynamic tiling Wayland compositor
 -Exec=Hyprland
 +Exec=dbus-run-session Hyprland
  Type=Application
-\ No newline at end of file
+ DesktopNames=Hyprland
+ Keywords=tiling;wayland;compositor;
