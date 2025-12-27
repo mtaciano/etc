@@ -1,1 +1,2 @@
 dev-qt/qtmultimedia qml
+gui-libs/egl-wayland2 abi_x86_32
