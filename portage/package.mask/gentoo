@@ -1,3 +1,15 @@
 # Stop emerge from trying to downgrade zfs
 <sys-fs/zfs-2.3.3
 <sys-fs/zfs-kmod-2.3.3
+
+# Hyprland stuff
+dev-util/hyprwayland-scanner::gentoo
+gui-libs/hyprcursor::gentoo
+dev-libs/hyprlang::gentoo
+dev-libs/hyprgraphics::gentoo
+gui-apps/slurp::gentoo
+gui-libs/hyprutils::gentoo
+dev-cpp/glaze::gentoo
+dev-libs/hyprland-protocols::gentoo
+gui-libs/aquamarine::gentoo
+gui-wm/hyprland::gentoo
