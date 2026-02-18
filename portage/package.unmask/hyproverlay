@@ -8,3 +8,6 @@ dev-cpp/glaze::hyproverlay
 dev-libs/hyprland-protocols::hyproverlay
 gui-libs/aquamarine::hyproverlay
 gui-wm/hyprland::hyproverlay
+gui-libs/hyprwire::hyproverlay
+gui-libs/hyprland-guiutils::hyproverlay
+gui-libs/hyprtoolkit::hyproverlay
