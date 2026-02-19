@@ -1,12 +1,12 @@
-diff '--color=auto' -ur a/example/hyprland.desktop b/example/hyprland.desktop
---- a/example/hyprland.desktop  2025-12-27 19:54:59.149722965 -0300
-+++ b/example/hyprland.desktop  2025-12-27 20:00:07.878814197 -0300
+diff '--color=auto' -ur a/example/hyprland.desktop.in b/example/hyprland.desktop.in
+--- a/example/hyprland.desktop.in  2025-12-27 19:54:59.149722965 -0300
++++ b/example/hyprland.desktop.in  2025-12-27 20:00:07.878814197 -0300
 @@ -1,7 +1,7 @@
  [Desktop Entry]
  Name=Hyprland
  Comment=An intelligent dynamic tiling Wayland compositor
--Exec=Hyprland
-+Exec=dbus-run-session Hyprland
+-Exec=@PREFIX@/@CMAKE_INSTALL_BINDIR@/start-hyprland
++Exec=dbus-run-session @PREFIX@/@CMAKE_INSTALL_BINDIR@/start-hyprland
  Type=Application
  DesktopNames=Hyprland
  Keywords=tiling;wayland;compositor;
