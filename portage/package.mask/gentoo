@@ -7,7 +7,6 @@ dev-util/hyprwayland-scanner::gentoo
 gui-libs/hyprcursor::gentoo
 dev-libs/hyprlang::gentoo
 dev-libs/hyprgraphics::gentoo
-gui-apps/slurp::gentoo
 gui-libs/hyprutils::gentoo
 dev-cpp/glaze::gentoo
 dev-libs/hyprland-protocols::gentoo

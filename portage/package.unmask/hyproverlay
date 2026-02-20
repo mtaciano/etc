@@ -2,7 +2,6 @@ dev-util/hyprwayland-scanner::hyproverlay
 gui-libs/hyprcursor::hyproverlay
 dev-libs/hyprlang::hyproverlay
 dev-libs/hyprgraphics::hyproverlay
-gui-apps/slurp::hyproverlay
 gui-libs/hyprutils::hyproverlay
 dev-cpp/glaze::hyproverlay
 dev-libs/hyprland-protocols::hyproverlay
