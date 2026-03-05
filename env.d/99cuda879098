@@ -1,0 +1,3 @@
+PATH=/opt/cuda/bin
+PKG_CONFIG_PATH=/opt/cuda/pkgconfig
+LDPATH=/opt/cuda/lib64:/opt/cuda/nvvm/lib64
