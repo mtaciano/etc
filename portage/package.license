@@ -29,3 +29,6 @@ games-util/curseforge Overwolf
 
 # See /var/db/repos/gentoo/licenses/LogMeIn
 net-vpn/logmein-hamachi LogMeIn
+
+# See /var/db/repos/gentoo/licenses/NVIDIA-CUDA
+dev-util/nvidia-cuda-toolkit NVIDIA-CUDA
