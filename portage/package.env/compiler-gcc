@@ -3,3 +3,4 @@ sys-devel/gcc compiler-gcc.conf
 net-libs/webkit-gtk compiler-gcc.conf
 media-gfx/digikam compiler-gcc.conf
 media-libs/opensubdiv compiler-gcc.conf
+media-gfx/blender compiler-gcc.conf
