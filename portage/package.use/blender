@@ -1,6 +1,1 @@
-sci-physics/bullet double-precision
-media-video/ffmpeg opus vpx lame vorbis x264 theora xvid
-sci-libs/fftw threads
-media-libs/opensubdiv tbb cuda
-dev-util/nvidia-cuda-toolkit clang
-media-gfx/blender cuda jemalloc pipewire
+media-gfx/blender jemalloc pipewire
