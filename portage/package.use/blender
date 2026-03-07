@@ -1,1 +1,3 @@
+media-video/ffmpeg theora xvid vpx opus lame vorbis x264
+sci-libs/fftw threads
 media-gfx/blender jemalloc pipewire
