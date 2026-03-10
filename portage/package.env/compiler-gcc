@@ -4,3 +4,4 @@ net-libs/webkit-gtk compiler-gcc.conf
 media-gfx/digikam compiler-gcc.conf
 media-libs/opensubdiv compiler-gcc.conf
 media-gfx/blender compiler-gcc.conf
+media-video/pipewire compiler-gcc.conf
