@@ -1,1 +1,2 @@
 dev-lang/rust system-bootstrap
+net-libs/ngtcp2 abi_x86_32
