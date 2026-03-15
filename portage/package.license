@@ -32,3 +32,6 @@ net-vpn/logmein-hamachi LogMeIn
 
 # See /var/db/repos/gentoo/licenses/NVIDIA-CUDA
 dev-util/nvidia-cuda-toolkit NVIDIA-CUDA
+
+# See /var/db/repos/gentoo/licenses/all-rights-reserved
+games-arcade/osu-lazer all-rights-reserved

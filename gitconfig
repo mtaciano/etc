@@ -6,3 +6,4 @@
 	directory = /var/db/repos/steam-overlay
 	directory = /var/db/repos/jaredallard-overlay
 	directory = /var/db/repos/hyproverlay
+	directory = /var/db/repos/jaredallard
